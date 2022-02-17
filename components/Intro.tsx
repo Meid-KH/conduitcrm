@@ -5,12 +5,13 @@ import Image from "next/image";
 
 import Button from "components/Button";
 import LogoShadow from "assets/img/logo-shadow.png";
+import HomeIntroBG from "assets/img/home-intro-bg.png";
 
 const Intro = () => {
 	return (
 		<header className="px-6 py-8 lg:py-[88px] bg-primary-700 text-faded">
 			<div className="w-[540px] absolute -left-16 -top-14">
-				<img src={LogoShadow.src.toString()} alt="Logo preview" />
+				<img src={LogoShadow.src} alt="Logo preview" />
 			</div>
 			<div className="h-[104px] max-w-[1780px] mx-auto flex justify-between items-center">
 				<div className="w-28">
@@ -49,7 +50,7 @@ const Intro = () => {
 				</nav>
 			</div>
 
-			<div className="max-w-[1086px] mx-auto text-center mt-40">
+			<div className="relative z-10 max-w-[1086px] mx-auto text-center mt-40">
 				<h1 className="text-6xl font-bold uppercase leading-snug mb-9">
 					Manage all your leads{" "}
 					<span className="block text-8xl text-primary-500">
@@ -74,6 +75,13 @@ const Intro = () => {
 						</a>
 					</Link>
 				</div>
+			</div>
+			<div className="max-w-full mx-auto -translate-y-48 -mb-96">
+				<img
+					className="max-w-full mx-auto"
+					src={HomeIntroBG.src}
+					alt="Home Intro BG"
+				/>
 			</div>
 		</header>
 	);
