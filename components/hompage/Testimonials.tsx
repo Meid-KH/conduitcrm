@@ -46,8 +46,8 @@ const Testimonials = () => {
 									<div className="absolute right-0 bottom-0 translate-y-1/2 translate-x-1/2 w-20 h-20 rounded-full overflow-hidden bg-primary-600">
 										<img
 											className="max-w-full"
-											// src={avatar.src}
-											src="https://i.pravatar.cc/150"
+											src={avatar.src}
+											// src="https://i.pravatar.cc/150"
 											alt="Author avatar"
 										/>
 									</div>

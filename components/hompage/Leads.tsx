@@ -7,9 +7,9 @@ const Leads = () => {
 	return (
 		<section
 			style={{ boxShadow: "0 -10px 20px 1px #18c4ff33" }}
-			className="bg-white py-32 -skew-y-[4deg] -translate-y-96 -mb-96"
+			className="bg-white py-32 -skew-y-[2deg] -translate-y-96 -mb-96"
 		>
-			<div className="container mx-auto skew-y-[4deg]">
+			<div className="container mx-auto skew-y-[2deg]">
 				<div className="text-center max-w-5xl mx-auto mb-36">
 					<h2 className="font-bold text-7xl leading-tight text-primary-600">
 						Day-to-day{" "}
