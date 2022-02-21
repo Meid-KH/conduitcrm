@@ -13,7 +13,7 @@ const Cta = () => {
 							Limitless stuff.
 						</span>
 					</h4>
-					<div className="mt-6">
+					<div className="mt-10">
 						<Link href="/">
 							<a className="block">
 								<Button primary>Get Started</Button>
