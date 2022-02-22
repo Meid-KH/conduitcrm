@@ -188,7 +188,7 @@ type MenuItemProps = {
 };
 
 const MenuItem = ({ title, url, ancestors, parentWidth }: MenuItemProps) => {
-	const [open, setOpen] = React.useState(true);
+	const [open, setOpen] = React.useState(false);
 
 	return (
 		<li
@@ -216,7 +216,8 @@ const MenuItem = ({ title, url, ancestors, parentWidth }: MenuItemProps) => {
 			</Link>
 			{ancestors && (
 				<div
-					className={`absolute z-20 left-0 top-full -translate-y-2 w-max min-w-[560px] bg-black/95 rounded-lg py-6 px-8 ${
+					style={{ minWidth: `${parentWidth}px` }}
+					className={`absolute z-20 left-0 top-full -translate-y-2 w-max min-w-[560px]__ bg-black/95 rounded-lg py-6 px-8 ${
 						!open && "hidden"
 					}`}
 				>
