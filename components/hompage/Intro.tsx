@@ -18,7 +18,7 @@ const Intro = () => {
 					</h1>
 					<p className="text-lg leading-relaxed">
 						Streamline and simplify{" "}
-						<span className="underline decoration-2 decoration-wavy underline-offset-2 decoration-primary-500">
+						<span className="underline underline-offset-4">
 							lead-processing pipelines
 						</span>
 						, <br /> so that real estate and loan professionals can

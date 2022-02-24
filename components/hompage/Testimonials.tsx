@@ -7,8 +7,13 @@ import avatar from "assets/img/avatar.png";
 
 const Testimonials = () => {
 	return (
-		<section className="bg-white text-primary-600 py-24">
-			<div className="container mx-auto">
+		<section
+			className="relative 
+      before:absolute before:skew-y-2 before:-translate-y-1/4 before:top-0 before:left-0 before:h-1/2 before:w-full before:bg-white 
+      after:absolute after:-skew-y-2 after:translate-y-1/4 after:bottom-0 after:left-0 after:h-1/2 after:w-full after:bg-white
+      bg-white text-primary-600 p-24"
+		>
+			<div className="container mx-auto relative z-10">
 				<div className="max-w-5xl mx-auto flex gap-8 items-center justify-between">
 					<h3 className="text-4xl font-light leading-snug">
 						See what our <br /> customers{" "}

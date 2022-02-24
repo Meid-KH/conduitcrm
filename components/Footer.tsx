@@ -4,8 +4,12 @@ import Logo from "./Logo";
 
 const Footer = () => {
 	return (
-		<footer className="bg-primary-700 py-20">
-			<div className="container mx-auto">
+		<footer
+			className="relative
+      before:absolute before:-skew-y-2 before:-translate-y-1/4 before:top-0 before:left-0 before:h-1/2 before:w-full before:bg-primary-700
+      bg-primary-700 pb-20"
+		>
+			<div className="container mx-auto relative z-10">
 				<div className="grid gap-6 grid-cols-5">
 					<div className="col-span-2">
 						<div className="flex items-center gap-3">

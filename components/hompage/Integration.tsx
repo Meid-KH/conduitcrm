@@ -6,7 +6,7 @@ import TasksTools from "assets/img/tools-tasks.png";
 function Integration() {
 	return (
 		<section
-			className="bg-primary-600 py-20"
+			className="bg-primary-600 py-20 pb-32"
 			// style={{ clipPath: "polygon(0 3%, 100% 0%, 100% 96%, 0 100%)" }}
 		>
 			<div className="container mx-auto">

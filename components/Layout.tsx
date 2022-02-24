@@ -9,7 +9,7 @@ type PropType = {
 
 const Layout = ({ children }: PropType) => {
 	return (
-		<div className="scroll-smooth overflow-x-hidden bg-primary-600 text-faded">
+		<div className="scroll-smooth h-screen min-h-screen overflow-x-hidden bg-primary-600 text-faded">
 			<Header />
 			{children}
 			<Footer />

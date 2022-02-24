@@ -5,8 +5,8 @@ import Icon from "utils/Icon";
 
 const Cta = () => {
 	return (
-		<section className="bg-gradient-to-b from-primary-700 to-primary-600 py-60 -skew-y-[2deg]">
-			<div className="container mx-auto skew-y-[2deg]">
+		<section className="bg-gradient-to-b from-primary-700 to-primary-600 py-60">
+			<div className="container mx-auto">
 				<div className="text-center">
 					<h4 className="text-5xl text-faded font-semibold leading-tight">
 						The only LP-CRM.

@@ -10,10 +10,20 @@ import Icon from "utils/Icon";
 // const MenuItems = ["Product", "Pricing", "Resources", "About", "Contact us"];
 
 const Header = () => {
+	React.useEffect(() => {
+		// handleScroll();
+	}, []);
+
+	const handleScroll = () => {
+		document.body.addEventListener("scroll", () => {
+			console.log(document.body.scrollTop);
+		});
+	};
+
 	return (
 		<header
 			id="header"
-			className="px-6 py-8 lg:py-[40px] bg-primary-700 text-faded max-w-[1920px]"
+			className="sticky__ z-10 top-0 px-6 py-8 lg:py-[40px] bg-primary-700 text-faded max-w-[1920px]__"
 		>
 			<div className="w-[540px] absolute -left-16 -top-14">
 				<img src={LogoShadow.src} alt="Logo preview" />
