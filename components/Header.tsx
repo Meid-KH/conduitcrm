@@ -11,7 +11,10 @@ import Icon from "utils/Icon";
 
 const Header = () => {
 	return (
-		<header className="px-6 py-8 lg:py-[40px] bg-primary-700 text-faded max-w-[1920px]">
+		<header
+			id="header"
+			className="px-6 py-8 lg:py-[40px] bg-primary-700 text-faded max-w-[1920px]"
+		>
 			<div className="w-[540px] absolute -left-16 -top-14">
 				<img src={LogoShadow.src} alt="Logo preview" />
 			</div>
@@ -24,11 +27,18 @@ const Header = () => {
 
 				<nav className="flex items-center gap-11">
 					<Link href="/">
-						<a className="text-[18px] hover:text-white">Log in</a>
+						<a className="hover:text-white">Log in</a>
 					</Link>
 					<Link href="/">
 						<a className="block">
-							<Button primary>Get started</Button>
+							<Button primary>
+								<div className="flex items-center gap-2">
+									Get started
+									<span className="w-6 rotate-90 -mr-6">
+										<Icon name="arrow" />
+									</span>
+								</div>
+							</Button>
 						</a>
 					</Link>
 				</nav>
@@ -198,7 +208,7 @@ const MenuItem = ({ title, url, ancestors, parentWidth }: MenuItemProps) => {
 		>
 			<Link href={url}>
 				<a
-					className={`flex items-center gap-2 py-3 px-4 rounded-lg text-[18px] ${
+					className={`flex items-center gap-2 py-3 px-4 rounded-lg ${
 						open && "bg-black"
 					} hover:text-white`}
 				>

@@ -1,6 +1,7 @@
 import Button from "components/Button";
 import Link from "next/link";
 import React from "react";
+import Icon from "utils/Icon";
 
 const Cta = () => {
 	return (
@@ -16,7 +17,14 @@ const Cta = () => {
 					<div className="mt-10">
 						<Link href="/">
 							<a className="block">
-								<Button primary>Get Started</Button>
+								<Button primary>
+									<div className="flex items-center gap-2">
+										Get started
+										<span className="w-6 rotate-90 -mr-6">
+											<Icon name="arrow" />
+										</span>
+									</div>
+								</Button>
 							</a>
 						</Link>
 					</div>
