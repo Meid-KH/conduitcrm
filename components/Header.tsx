@@ -20,15 +20,13 @@ const Header = () => {
 
 	const onScroll: EventListener = (event: Event) => {
 		// <-- DOM-EventListener
-		console.log("event", window.scrollY);
+		// console.log("event", window.scrollY);
 		if (window.scrollY > 100) {
 			setSticky(true);
 		} else {
 			setSticky(false);
 		}
 	};
-
-	console.log(sticky);
 
 	return (
 		<header
