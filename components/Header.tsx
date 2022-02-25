@@ -26,45 +26,53 @@ const Header = () => {
 	};
 
 	return (
-		<header
-			id="header"
-			className={`${
-				sticky ? "fixed w-full py-2 bg-black" : " py-8 lg:py-[40px]"
-			} sticky__ z-30 top-0 transition-all px-6 bg-primary-700 text-faded max-w-[1920px]__`}
-		>
+		<>
 			<div className="w-[540px] absolute -left-16 -top-14">
 				<img src={LogoShadow.src} alt="Logo preview" />
 			</div>
-			<div
+			<header
+				id="header"
 				className={`${
-					sticky ? "h-auto max-w-6xl" : "h-[104px] max-w-[1780px]"
-				} h-[104px] max-w-[1780px] mx-auto flex justify-between items-center`}
+					sticky
+						? "fixed w-full py-2 bg-black/90"
+						: " py-8 lg:py-[40px]"
+				} sticky__ z-30 top-0 transition-all duration-300 px-6 bg-primary-700 text-faded max-w-[1920px]__`}
 			>
-				<div className={`${sticky ? "w-16" : "w-28"}`}>
-					<Logo />
+				<div
+					className={`${
+						sticky ? "h-auto max-w-6xl" : "h-[104px]"
+					} transition-all duration-300 h-[104px] max-w-7xl mx-auto flex justify-between items-center`}
+				>
+					<div
+						className={`${
+							sticky ? "w-16" : "w-28"
+						} transition-all duration-300`}
+					>
+						<Logo />
+					</div>
+
+					<MainMenu />
+
+					<nav className="flex items-center gap-11">
+						<Link href="/">
+							<a className="hover:text-white">Log in</a>
+						</Link>
+						<Link href="/">
+							<a className="block">
+								<Button primary>
+									<div className="flex items-center gap-2">
+										Get started
+										<span className="w-6 rotate-90 -mr-6">
+											<Icon name="arrow" />
+										</span>
+									</div>
+								</Button>
+							</a>
+						</Link>
+					</nav>
 				</div>
-
-				<MainMenu />
-
-				<nav className="flex items-center gap-11">
-					<Link href="/">
-						<a className="hover:text-white">Log in</a>
-					</Link>
-					<Link href="/">
-						<a className="block">
-							<Button primary>
-								<div className="flex items-center gap-2">
-									Get started
-									<span className="w-6 rotate-90 -mr-6">
-										<Icon name="arrow" />
-									</span>
-								</div>
-							</Button>
-						</a>
-					</Link>
-				</nav>
-			</div>
-		</header>
+			</header>
+		</>
 	);
 };
 

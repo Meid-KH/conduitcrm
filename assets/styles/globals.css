@@ -56,6 +56,9 @@
 html {
 	@apply scroll-smooth;
 }
+body {
+	@apply overflow-x-hidden bg-primary-600 text-faded;
+}
 
 .swiper {
 	@apply m-0 !important;
