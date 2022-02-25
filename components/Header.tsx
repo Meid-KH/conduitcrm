@@ -7,8 +7,6 @@ import LogoShadow from "assets/img/logo-shadow.png";
 import Link from "next/link";
 import Icon from "utils/Icon";
 
-// const MenuItems = ["Product", "Pricing", "Resources", "About", "Contact us"];
-
 const Header = () => {
 	const [sticky, setSticky] = React.useState(false);
 
@@ -19,7 +17,6 @@ const Header = () => {
 	}, []);
 
 	const onScroll: EventListener = (event: Event) => {
-		// <-- DOM-EventListener
 		// console.log("event", window.scrollY);
 		if (window.scrollY > 100) {
 			setSticky(true);
