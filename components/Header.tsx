@@ -10,26 +10,42 @@ import Icon from "utils/Icon";
 // const MenuItems = ["Product", "Pricing", "Resources", "About", "Contact us"];
 
 const Header = () => {
+	const [sticky, setSticky] = React.useState(false);
+
 	React.useEffect(() => {
-		// handleScroll();
+		const win: Window = window;
+		win.addEventListener("scroll", onScroll, true);
+		return () => window.removeEventListener("scroll", onScroll);
 	}, []);
 
-	const handleScroll = () => {
-		document.body.addEventListener("scroll", () => {
-			console.log(document.body.scrollTop);
-		});
+	const onScroll: EventListener = (event: Event) => {
+		// <-- DOM-EventListener
+		console.log("event", window.scrollY);
+		if (window.scrollY > 100) {
+			setSticky(true);
+		} else {
+			setSticky(false);
+		}
 	};
+
+	console.log(sticky);
 
 	return (
 		<header
 			id="header"
-			className="sticky__ z-10 top-0 px-6 py-8 lg:py-[40px] bg-primary-700 text-faded max-w-[1920px]__"
+			className={`${
+				sticky ? "fixed w-full py-2 bg-black" : " py-8 lg:py-[40px]"
+			} sticky__ z-30 top-0 transition-all px-6 bg-primary-700 text-faded max-w-[1920px]__`}
 		>
 			<div className="w-[540px] absolute -left-16 -top-14">
 				<img src={LogoShadow.src} alt="Logo preview" />
 			</div>
-			<div className="h-[104px] max-w-[1780px] mx-auto flex justify-between items-center">
-				<div className="w-28">
+			<div
+				className={`${
+					sticky ? "h-auto max-w-6xl" : "h-[104px] max-w-[1780px]"
+				} h-[104px] max-w-[1780px] mx-auto flex justify-between items-center`}
+			>
+				<div className={`${sticky ? "w-16" : "w-28"}`}>
 					<Logo />
 				</div>
 

@@ -53,6 +53,10 @@
 	}
 }
 
+html {
+	@apply scroll-smooth;
+}
+
 .swiper {
 	@apply m-0 !important;
 }
