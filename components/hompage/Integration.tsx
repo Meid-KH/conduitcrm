@@ -6,12 +6,12 @@ import TasksTools from "assets/img/tools-tasks.png";
 function Integration() {
 	return (
 		<section
-			className="bg-primary-600 py-20 pb-32"
+			className="bg-primary-600 pb-36 -mt-8 lg:py-20 lg:pb-32 lg:mt-0"
 			// style={{ clipPath: "polygon(0 3%, 100% 0%, 100% 96%, 0 100%)" }}
 		>
-			<div className="container mx-auto">
-				<div className="flex gap-8 justify-between pt-20 max-w-6xl mx-auto">
-					<div className="max-w-md">
+			<div className="container px-6 mx-auto space-y-7 lg:space-y-12">
+				<div className="flex flex-wrap items-center justify-between gap-2 lg:gap-8 max-w-6xl mx-auto">
+					<div className="lg:max-w-md">
 						<h3 className="text-4xl font-semibold text-primary-500 mb-6">
 							All your leads in one place
 						</h3>
@@ -23,15 +23,15 @@ function Integration() {
 						</p>
 					</div>
 					<img
-						className="max-w-md"
+						className="max-w-full w-96"
 						src={LeadTools.src}
 						alt="Lead TOOLS"
 					/>
 				</div>
 
-				<div className="flex gap-8 justify-between pt-20 max-w-6xl mx-auto">
-					<img className="max-w-md" src={AutoTools.src} />
-					<div className="max-w-md">
+				<div className="flex flex-wrap items-center justify-between gap-2 flex-col-reverse lg:flex-row lg:gap-8 max-w-6xl mx-auto">
+					<img className="max-w-full w-96" src={AutoTools.src} />
+					<div className="lg:max-w-md">
 						<h3 className="text-4xl font-semibold text-primary-500 mb-6">
 							Automate everything
 						</h3>
@@ -43,8 +43,8 @@ function Integration() {
 					</div>
 				</div>
 
-				<div className="flex gap-8 justify-between pt-20 max-w-6xl mx-auto">
-					<div className="max-w-md">
+				<div className="flex flex-wrap items-center justify-between gap-2 lg:gap-8 max-w-6xl mx-auto">
+					<div className="lg:max-w-md">
 						<h3 className="text-4xl font-semibold text-primary-500 mb-6">
 							Get ahead of your tasks
 						</h3>
@@ -54,7 +54,7 @@ function Integration() {
 							communication to manage your contacts.
 						</p>
 					</div>
-					<img className="max-w-md" src={TasksTools.src} />
+					<img className="max-w-full w-96" src={TasksTools.src} />
 				</div>
 			</div>
 		</section>

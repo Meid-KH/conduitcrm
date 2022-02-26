@@ -8,24 +8,24 @@ import Icon from "utils/Icon";
 const Intro = () => {
 	return (
 		<div className="bg-primary-700">
-			<div className="container mx-auto">
+			<div className="container px-6 mx-auto overflow-hidden">
 				<div className=" text-faded relative z-10 max-w-[1086px] mx-auto text-center pt-16">
-					<h1 className="text-5xl font-bold uppercase leading-relaxed mb-6">
+					<h1 className="text-3xl leading-snug font-bold uppercase lg:text-5xl lg:leading-relaxed mb-6">
 						Manage all your leads{" "}
-						<span className="block text-7xl text-primary-500">
+						<span className="block text-4xl lg:text-7xl text-primary-500">
 							Like a pro
 						</span>
 					</h1>
-					<p className="text-lg leading-relaxed">
+					<p className=" mx-auto leading-relaxed lg:text-lg lg:max-w-lg">
 						Streamline and simplify{" "}
 						<span className="underline underline-offset-4">
 							lead-processing pipelines
 						</span>
-						, <br /> so that real estate and loan professionals can
-						focus more on helping clients <br /> and less on
-						managing the process.
+						, so that real estate and loan professionals can focus
+						more on helping clients and less on managing the
+						process.
 					</p>
-					<div className="flex justify-center gap-5 mt-10">
+					<div className="flex flex-wrap justify-center gap-5 mt-10">
 						<Link href="/">
 							<a className="block">
 								<Button>Explore more</Button>
@@ -45,7 +45,7 @@ const Intro = () => {
 						</Link>
 					</div>
 				</div>
-				<div className="max-w-4xl mx-auto -translate-y-36 -mb-72">
+				<div className="max-w-4xl -mx-8 lg:mx-auto lg:-translate-y-36 lg:-mb-72">
 					<img
 						className="max-w-full mx-auto"
 						src={HomeIntroBG.src}

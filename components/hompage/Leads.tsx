@@ -8,38 +8,38 @@ const Leads = () => {
 	return (
 		<section
 			style={{ boxShadow: "0 -10px 20px 1px #18c4ff33" }}
-			className="bg-white p-32 -skew-y-[2deg] -translate-y-24 -mb-24"
+			className="bg-white py-10 lg:py-32 -skew-y-[2deg] -translate-y-24 lg:-mb-24"
 		>
-			<div className="container mx-auto skew-y-[2deg]">
-				<div className="text-center max-w-5xl mx-auto mb-16">
-					<h2 className="font-bold text-5xl leading-tight text-primary-600">
+			<div className="container px-6 mx-auto skew-y-[2deg]">
+				<div className="text-center max-w-5xl mx-auto mb-8 lg:mb-16">
+					<h2 className="text-primary-600 font-bold text-3xl lg:text-5xl lg:leading-tight">
 						Day-to-day{" "}
 						<span className="text-primary-500">
 							Lead Processing
 						</span>{" "}
 						can <br /> become unmanageable
 					</h2>
-					<p className="text-xl text-primary-400 mt-4 leading-normal">
-						Processing leads on a daily basis can become <br />
+					<p className="lg:text-xl lg:leading-normal lg:max-w-xl lg:mx-auto text-primary-400 mt-4">
+						Processing leads on a daily basis can become
 						unmanageable and can cost you and your leads, time,
-						money, and <br /> your reputation.
+						money, and your reputation.
 					</p>
 				</div>
 				{/* Lead Processing  */}
 				<img
-					className="max-w-md mx-auto mb-20"
+					className="max-w-full w-[28rem] mx-auto mb-10 lg:mb-20"
 					src={LeadProcessing.src}
 					alt="Lead Processing"
 				/>
-				<div className="text-center max-w-3xl mx-auto mb-14">
-					<h2 className="font-bold text-5xl leading-tight text-primary-600">
+				<div className="text-center max-w-3xl mx-auto mb-7 lg:mb-14">
+					<h2 className="text-primary-600 font-bold text-3xl lg:text-5xl lg:leading-tight">
 						The first Real Estate{" "}
 						<span className="text-primary-500">
 							Lead Processing
 						</span>{" "}
 						CRM
 					</h2>
-					<p className="text-xl text-primary-400 mt-4 leading-normal">
+					<p className="lg:text-xl lg:leading-normal lg:max-w-xl lg:mx-auto text-primary-400 mt-4">
 						With Conduit's lead-processing CRM solution, you will
 						stay <br /> ahead by automating all lead processes
 						without losing <br /> track from start to finish.
@@ -56,7 +56,7 @@ const Leads = () => {
 					</div>
 				</div>
 				<img
-					className="max-w-5xl mx-auto"
+					className="max-w-full w-[64rem] mx-auto"
 					src={RealEstateCrm.src}
 					alt="Real estate Crm"
 				/>

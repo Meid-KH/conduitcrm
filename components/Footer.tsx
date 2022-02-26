@@ -9,9 +9,9 @@ const Footer = () => {
       before:absolute before:-skew-y-2 before:-translate-y-1/4 before:top-0 before:left-0 before:h-1/2 before:w-full before:bg-primary-700
       bg-primary-700 pb-20"
 		>
-			<div className="container mx-auto relative z-10">
-				<div className="grid gap-6 grid-cols-5">
-					<div className="col-span-2">
+			<div className="container px-6 mx-auto relative z-10">
+				<div className="grid gap-6 grid-cols-3 lg:grid-cols-5">
+					<div className="col-span-3 lg:col-span-2 mb-6 lg:mb-0">
 						<div className="flex items-center gap-3">
 							<div className="w-10 h-10 flex-shrink-0">
 								<Logo />
@@ -23,7 +23,7 @@ const Footer = () => {
 						<div className="text-sm mt-6">
 							All rights reserved @ ConduitCRM LLC
 						</div>
-						<ul className="mt-14 space-y-3">
+						<ul className="mt-4 lg:mt-14 space-y-3">
 							<li>
 								<Link href="/">
 									<a className="block text-sm font-light underline underline-offset-2 hover:text-white">
@@ -51,7 +51,7 @@ const Footer = () => {
 						<div className="text-primary-500 font-semibold">
 							Product
 						</div>
-						<ul className="space-y-4">
+						<ul className="space-y-3 lg:space-y-4">
 							<Link href="/">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Product Overview
@@ -128,7 +128,7 @@ const Footer = () => {
 						<div className="text-primary-500 font-semibold">
 							Company
 						</div>
-						<ul className="space-y-4">
+						<ul className="space-y-3 lg:space-y-4">
 							<Link href="/">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									About us
@@ -150,7 +150,7 @@ const Footer = () => {
 						<div className="text-primary-500 font-semibold">
 							Ressources
 						</div>
-						<ul className="space-y-4">
+						<ul className="space-y-3 lg:space-y-4">
 							<Link href="/">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Blog
