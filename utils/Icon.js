@@ -17,36 +17,10 @@ const Icons = {
 		</svg>
 	),
 	hamburger: () => (
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.5 26">
-			<g data-name="Group 116" transform="translate(-304 -27)">
-				<line
-					data-name="Line 9"
-					x2="33"
-					transform="translate(317 29.5)"
-					fill="none"
-					stroke="#05adf8"
-					strokeLinecap="round"
-					strokeWidth="5"
-				/>
-				<line
-					data-name="Line 10"
-					x2="35"
-					transform="translate(306.5 40)"
-					fill="none"
-					stroke="#05adf8"
-					strokeLinecap="round"
-					strokeWidth="5"
-				/>
-				<line
-					data-name="Line 11"
-					x2="40"
-					transform="translate(317 50.5)"
-					fill="none"
-					stroke="#05adf8"
-					strokeLinecap="round"
-					strokeWidth="5"
-				/>
-			</g>
+		<svg viewBox="0 0 32 30" xmlns="http://www.w3.org/2000/svg">
+			<rect width="32" height="4" rx="2" fill="currentColor" />
+			<rect y="13" width="20" height="4" rx="2" fill="currentColor" />
+			<rect y="26" width="32" height="4" rx="2" fill="currentColor" />
 		</svg>
 	),
 	close: () => (
@@ -56,7 +30,7 @@ const Icons = {
 					x2="40"
 					transform="translate(317.215 31.358) rotate(45)"
 					fill="none"
-					stroke="#05adf8"
+					stroke="currentColor"
 					strokeLinecap="round"
 					strokeWidth="5"
 				/>
@@ -64,7 +38,7 @@ const Icons = {
 					x2="40"
 					transform="translate(317.215 59.642) rotate(-45)"
 					fill="none"
-					stroke="#05adf8"
+					stroke="currentColor"
 					strokeLinecap="round"
 					strokeWidth="5"
 				/>

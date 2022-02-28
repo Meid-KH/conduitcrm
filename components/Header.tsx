@@ -103,7 +103,7 @@ const MainMenu = () => {
 		<>
 			<button
 				onClick={() => handleMenu()}
-				className="relative lg:hidden w-14 h-14 p-2 rounded-md focus:ring hover:bg-black/90"
+				className="relative lg:hidden w-14 h-14 p-3 rounded-md focus:ring hover:bg-black/90"
 			>
 				<Icon name={menuOpen ? "close" : "hamburger"} />
 			</button>

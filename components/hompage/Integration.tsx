@@ -9,10 +9,10 @@ function Integration() {
 			className="bg-primary-600 pb-36 -mt-8 lg:py-20 lg:pb-32 lg:mt-0"
 			// style={{ clipPath: "polygon(0 3%, 100% 0%, 100% 96%, 0 100%)" }}
 		>
-			<div className="container px-6 mx-auto space-y-7 lg:space-y-12">
+			<div className="container px-6 mx-auto space-y-12">
 				<div className="flex flex-wrap items-center justify-between gap-2 lg:gap-8 max-w-6xl mx-auto">
 					<div className="lg:max-w-md">
-						<h3 className="text-4xl font-semibold text-primary-500 mb-6">
+						<h3 className="text-4xl font-semibold text-primary-500 mb-3 lg:mb-6">
 							All your leads in one place
 						</h3>
 						<p className="text-faded leading-relaxed">
@@ -32,7 +32,7 @@ function Integration() {
 				<div className="flex flex-wrap items-center justify-between gap-2 flex-col-reverse lg:flex-row lg:gap-8 max-w-6xl mx-auto">
 					<img className="max-w-full w-96" src={AutoTools.src} />
 					<div className="lg:max-w-md">
-						<h3 className="text-4xl font-semibold text-primary-500 mb-6">
+						<h3 className="text-4xl font-semibold text-primary-500 mb-3 lg:mb-6">
 							Automate everything
 						</h3>
 						<p className="text-faded leading-relaxed">
@@ -45,7 +45,7 @@ function Integration() {
 
 				<div className="flex flex-wrap items-center justify-between gap-2 lg:gap-8 max-w-6xl mx-auto">
 					<div className="lg:max-w-md">
-						<h3 className="text-4xl font-semibold text-primary-500 mb-6">
+						<h3 className="text-4xl font-semibold text-primary-500 mb-3 lg:mb-6">
 							Get ahead of your tasks
 						</h3>
 						<p className="text-faded leading-relaxed">
