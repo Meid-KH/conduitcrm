@@ -45,12 +45,14 @@ const Icons = {
 			</g>
 		</svg>
 	),
-	plus: () => <i className="bg-red-400">plus</i>,
-	default: () => <i className="bg-red-400">icon</i>,
+	// plus: () => <i className="bg-red-400">plus</i>,
+	default: () => (
+		<i className="bg-red-400__ underline text-sm font-light">icon</i>
+	),
 };
 
 const Icon = ({ name }) => {
-	const IconElem = Icons[name] || Icon.default;
+	const IconElem = Icons[name] ? Icons[name] : Icon.default;
 	return <IconElem />;
 };
 

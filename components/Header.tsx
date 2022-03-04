@@ -27,7 +27,7 @@ const Header = () => {
 
 	return (
 		<>
-			<div className="opacity-60 absolute w-64 -left-12 -top-14 xl:w-[340px] xl:-left-10 xl:-top-8">
+			<div className="opacity-60 absolute w-64 -left-16 -top-12 xl:w-[340px] xl:-left-10 xl:-top-8">
 				<img src={LogoShadow.src} alt="Logo preview" />
 			</div>
 			<header
@@ -46,7 +46,7 @@ const Header = () => {
 					<Link href="/">
 						<a
 							className={`${
-								sticky ? "w-16" : "w-28"
+								sticky ? "w-16" : "w-20 lg:w-28"
 							} relative block transition-all duration-300`}
 						>
 							<Logo />

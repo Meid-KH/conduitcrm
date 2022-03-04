@@ -37,7 +37,7 @@ const Testimonials = () => {
 											team.”
 										</div>
 										<div className="">
-											<div className="font-light ">
+											<div className="font-light">
 												Travis Helmig | Head of
 												Operations
 											</div>
