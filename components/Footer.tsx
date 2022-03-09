@@ -52,52 +52,52 @@ const Footer = () => {
 							Product
 						</div>
 						<ul className="space-y-3 lg:space-y-4">
-							<Link href="/">
+							<Link href="/product/overview">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Product Overview
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									CRM
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Pipelines
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Automation
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Lead Processing
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Tags
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Integration
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Tasks
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Milestones
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Deals
 								</a>
@@ -107,19 +107,14 @@ const Footer = () => {
 									Teams
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/product/feature">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Client Experience
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/pricing">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Pricig
-								</a>
-							</Link>
-							<Link href="/">
-								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
-									Teams
 								</a>
 							</Link>
 						</ul>
@@ -129,17 +124,17 @@ const Footer = () => {
 							Company
 						</div>
 						<ul className="space-y-3 lg:space-y-4">
-							<Link href="/">
+							<Link href="/about">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									About us
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/contact">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									contact us
 								</a>
 							</Link>
-							<Link href="/">
+							<Link href="/careers">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Careers
 								</a>
@@ -151,7 +146,7 @@ const Footer = () => {
 							Ressources
 						</div>
 						<ul className="space-y-3 lg:space-y-4">
-							<Link href="/">
+							<Link href="/ressources">
 								<a className="block text-sm font-light underline-offset-2 hover:text-white hover:underline">
 									Blog
 								</a>

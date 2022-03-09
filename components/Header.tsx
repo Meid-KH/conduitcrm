@@ -140,7 +140,7 @@ const MainMenu = () => {
 								<ul className="grid grid-cols-2 py-3 px-3 text-sm space-y-3">
 									<li className="col-span-2">
 										<a
-											href="/"
+											href="/product/overview"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Product Overview
@@ -156,7 +156,7 @@ const MainMenu = () => {
 								<ul className="grid grid-cols-2 gap-4 py-3 px-3 text-sm">
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											CRM
@@ -164,7 +164,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Tasks
@@ -172,7 +172,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Pipelines
@@ -180,7 +180,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Milestones
@@ -188,7 +188,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Automation
@@ -196,7 +196,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Deals
@@ -204,7 +204,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Lead Processing
@@ -212,7 +212,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Teams
@@ -220,7 +220,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Tags
@@ -228,7 +228,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Client Experience
@@ -236,7 +236,7 @@ const MainMenu = () => {
 									</li>
 									<li>
 										<a
-											href="/"
+											href="/product/feature"
 											className="underline-offset-2 hover:text-white hover:underline"
 										>
 											Integration
@@ -248,10 +248,10 @@ const MainMenu = () => {
 					}
 					parentWidth={parentWidth}
 				/>
-				<MenuItem title="Pricing" url="/" />
+				<MenuItem title="Pricing" url="/pricing" />
 				<MenuItem title="Resources" url="/" />
-				<MenuItem title="About" url="/" />
-				<MenuItem title="Contact us" url="/" />
+				<MenuItem title="About" url="/about" />
+				<MenuItem title="Contact us" url="/contact" />
 			</ul>
 		</>
 	);

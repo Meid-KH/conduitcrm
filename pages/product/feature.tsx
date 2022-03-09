@@ -73,9 +73,8 @@ const feature = () => {
 				<div className="container px-6 mx-auto">
 					<div className="max-w-5xl mx-auto space-y-6 lg:space-y-10">
 						{[0, 1, 2, 3, 4].map((item, index) => {
-							console.log();
 							const isEven: Boolean = index % 2 ? true : false;
-							console.log(isEven);
+							// console.log(isEven);
 
 							return (
 								<div

@@ -10,9 +10,9 @@ const Intro = () => {
 		<section className="pt-16 pb-32 lg:pt-10 lg:pb-48 bg-primary-700">
 			<div className="container px-6 mx-auto overflow-hidden">
 				<div className=" text-faded relative z-10 max-w-[1086px] mx-auto text-center">
-					<h1 className="text-3xl leading-snug font-bold uppercase lg:text-5xl lg:leading-relaxed mb-6">
+					<h1 className="text-3xl leading-snug font-bold tracking-widest uppercase lg:text-5xl lg:leading-relaxed mb-8">
 						Make your business
-						<span className="block text-4xl lg:text-7xl">
+						<span className="block capitalize text-4xl lg:text-7xl">
 							<span className="text-primary-500">
 								More impactful
 							</span>{" "}
