@@ -18,7 +18,7 @@ const Header = () => {
 
 	const onScroll: EventListener = (event: Event) => {
 		// console.log("event", window.scrollY);
-		if (window.scrollY > 100) {
+		if (window.scrollY > 250) {
 			setSticky(true);
 		} else {
 			setSticky(false);
