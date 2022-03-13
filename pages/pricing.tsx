@@ -133,7 +133,7 @@ const pricing = () => {
 									"linear-gradient(to right, transparent, black 10px, black 90%, transparent)",
 							}}
 						>
-							<table className="table-fixed min-w-full">
+							<table className="table-fixed w-full max-w-6xl mx-auto">
 								<thead className="border-b-2 border-primary-600">
 									<tr>
 										<th className="py-3 px-4 align-bottom text-left text-lg font-semibold">
@@ -142,7 +142,7 @@ const pricing = () => {
 										{PricingCols.map((item, index) => (
 											<th
 												key={index}
-												className={`py-3 px-4 pt-4 text-base font-semibold ${
+												className={`pb-3 px-4 pt-6 text-base font-semibold ${
 													item?.featured &&
 													"bg-primary-500/10 rounded-tl-lg rounded-tr-lg"
 												}`}
@@ -162,26 +162,26 @@ const pricing = () => {
 									{ProductFeatures?.map((item, index) => (
 										<tr
 											key={index}
-											className="border-b border-primary-600/10"
+											className="border-b border-primary-600/10 last:border-none"
 										>
-											<td className="py-4 px-4 font-medium">
+											<td className="py-6 lg:py-8 px-4 font-medium">
 												{item?.name}
 											</td>
-											<td className="py-6 px-4 text-sm text-center capitalize bg-primary-500/10">
+											<td className="py-6 lg:py-8 px-4 text-sm text-center capitalize bg-primary-500/10">
 												{convertBoolean(
 													item?.individual
 												)}
 											</td>
-											<td className="py-6 px-4 text-sm text-center capitalize">
+											<td className="py-6 lg:py-8 px-4 text-sm text-center capitalize">
 												{convertBoolean(item?.basic)}
 											</td>
-											<td className="py-6 px-4 text-sm text-center capitalize">
+											<td className="py-6 lg:py-8 px-4 text-sm text-center capitalize">
 												{convertBoolean(item?.standard)}
 											</td>
-											<td className="py-6 px-4 text-sm text-center capitalize">
+											<td className="py-6 lg:py-8 px-4 text-sm text-center capitalize">
 												{convertBoolean(item?.pro)}
 											</td>
-											<td className="py-6 px-4 text-sm text-center capitalize">
+											<td className="py-6 lg:py-8 px-4 text-sm text-center capitalize">
 												{convertBoolean(
 													item?.enterprise
 												)}
