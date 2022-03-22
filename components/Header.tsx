@@ -47,7 +47,7 @@ const Header = () => {
 						<a
 							className={`${
 								sticky ? "w-16" : "w-20 lg:w-28"
-							} relative block transition-all duration-300`}
+							} relative flex-shrink-0 block transition-all duration-300`}
 						>
 							<Logo />
 						</a>
@@ -55,7 +55,7 @@ const Header = () => {
 
 					<MainMenu />
 
-					<nav className="hidden lg:flex items-center gap-11">
+					<nav className="hidden flex-shrink-0 lg:flex items-center gap-11">
 						<Link href="/">
 							<a className="hover:text-white">Log in</a>
 						</Link>
@@ -111,14 +111,16 @@ const MainMenu = () => {
 				className={`hidden___
         ${menuOpen ? "left-0 opacity-100" : "-left-full opacity-0"}
         transition-all
+        overflow-y-auto
         fixed
         z-50
         top-0
-        w-4/6
+        w-[75%]
         h-full
         bg-black/90
         p-6
         sm:w-1/2
+        lg:overflow-y-visible
         lg:flex 
         lg:opacity-100
         lg:static
@@ -153,7 +155,7 @@ const MainMenu = () => {
 								<span className="block font-semibold text-primary-500">
 									Features
 								</span>
-								<ul className="grid grid-cols-2 gap-4 py-3 px-3 text-sm">
+								<ul className="grid sm:grid-cols-2 gap-4 py-3 px-3 text-sm">
 									<li>
 										<a
 											href="/product/feature"
@@ -249,7 +251,7 @@ const MainMenu = () => {
 					parentWidth={parentWidth}
 				/>
 				<MenuItem title="Pricing" url="/pricing" />
-				<MenuItem title="Resources" url="/" />
+				<MenuItem title="Resources" url="/resources" />
 				<MenuItem title="About" url="/about" />
 				<MenuItem title="Contact us" url="/contact" />
 			</ul>
@@ -269,23 +271,20 @@ const MenuItem = ({ title, url, ancestors, parentWidth }: MenuItemProps) => {
 
 	return (
 		<li
-			className="relative"
-			onMouseEnter={() => setOpen(true)}
-			onMouseLeave={() => setOpen(false)}
+			className="relative group"
+			// onMouseEnter={() => setOpen(true)}
+			// onMouseLeave={() => setOpen(false)}
 		>
 			<Link href={url}>
 				<a
-					className={`flex items-center gap-2 py-3 px-4 rounded-lg ${
-						open && "bg-black"
-					} hover:text-white`}
+					// className={`flex items-center gap-2 py-3 px-4 rounded-lg ${
+					// 	open && "bg-black"
+					// } hover:text-white`}
+					className={`flex items-center gap-2 py-3 px-4 -mx-4 lg:mx-0 rounded-lg group-hover:bg-black group-hover:text-white`}
 				>
 					{title}
 					{ancestors && (
-						<span
-							className={`transition-all  ${
-								open ? "w-4 opacity-100" : "w-0 opacity-0"
-							}`}
-						>
+						<span className="transition-all lg:w-0 lg:opacity-0 lg:group-hover:w-4 lg:group-hover:opacity-100">
 							<Icon name="arrow" />
 						</span>
 					)}
@@ -293,10 +292,13 @@ const MenuItem = ({ title, url, ancestors, parentWidth }: MenuItemProps) => {
 			</Link>
 			{ancestors && (
 				<div
-					style={{ minWidth: `${parentWidth}px` }}
-					className={`absolute z-20 left-0 top-full -translate-y-2 w-max min-w-[560px]__ bg-black/95 rounded-lg py-6 px-8 ${
-						!open && "hidden"
-					}`}
+					style={{ width: `${parentWidth}px` }}
+					// className={`absolute z-20 left-0 top-full -translate-y-2 w-max min-w-[560px]__ bg-black/95 rounded-lg py-6 px-8 ${
+					// 	!open && "hidden"
+					// }`}
+					className={`lg:hidden lg:absolute lg:z-20 lg:left-0 lg:top-full lg:-translate-y-2 lg:max-w-none lg:border-none lg:bg-black/95 lg:py-6 lg:px-8 lg:mb-0
+            max-w-full w-max bg-black border border-gray-800 rounded-lg py-4 px-4 mb-4
+            group-hover:block`}
 				>
 					{ancestors}
 				</div>
