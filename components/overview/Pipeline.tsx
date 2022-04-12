@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "utils/Icon";
-import PipeLines from "assets/img/pipeLines.png";
+import Image from "next/image";
 
 const Pipeline = () => {
   return (
@@ -15,10 +15,10 @@ const Pipeline = () => {
           </h1>
         </div>
         <div className="max-w-4xl mx-auto mt-6 lg:mt-8">
-          <img
-            className="max-w-full mx-auto"
-            src={PipeLines.src}
+          <Image
+            src={"/assets/img/pipeLines.png"}
             alt="Home Intro BG"
+            layout="fill"
           />
         </div>
         <div className="max-w-6xl flex flex-wrap items-center__ justify-between gap-8 mx-auto mt-8 lg:mt-16 lg:gap-16 ">

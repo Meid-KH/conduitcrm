@@ -1,8 +1,7 @@
 import React from "react";
 import Button from "components/Button";
-import LeadProcessing from "assets/img/lead-processing.png";
-import RealEstateCrm from "assets/img/real-estate-crm.png";
 import Icon from "utils/Icon";
+import Image from "next/image";
 
 const Leads = () => {
   return (
@@ -21,12 +20,14 @@ const Leads = () => {
             cost you and your leads, time, money, and your reputation.
           </p>
         </div>
-        {/* Lead Processing  */}
-        <img
-          className="max-w-full w-[28rem] mx-auto mb-10 lg:mb-20"
-          src={LeadProcessing.src}
-          alt="Lead Processing"
-        />
+        <div className="w-full flex justify-center mb-24">
+          <Image
+            src="/assets/img/lead-processing.png"
+            alt="Lead Processing"
+            width={600}
+            height={500}
+          />
+        </div>
         <div className="text-center max-w-3xl mx-auto mb-7 lg:mb-14">
           <h2 className="text-primary-600 font-bold text-3xl lg:text-5xl lg:leading-tight">
             <span className="mr-2">The first Real Estate</span>
@@ -48,11 +49,14 @@ const Leads = () => {
             </Button>
           </div>
         </div>
-        <img
-          className="max-w-full w-[64rem] mx-auto"
-          src={RealEstateCrm.src}
-          alt="Real estate Crm"
-        />
+        <div className="flex justify-center w-full">
+          <Image
+            src="/assets/img/real-estate-crm.png"
+            alt="Real estate Crm"
+            width={900}
+            height={500}
+          />
+        </div>
       </div>
     </section>
   );

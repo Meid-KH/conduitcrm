@@ -1,5 +1,5 @@
 import React from "react";
-import Leads from "assets/img/leads.png";
+import Image from "next/image";
 
 const Lead = () => {
   return (
@@ -20,10 +20,11 @@ const Lead = () => {
             </h1>
           </div>
           <div className="max-w-4xl mx-auto mt-6 lg:mt-8">
-            <img
+            <Image
               className="max-w-full mx-auto"
-              src={Leads.src}
+              src={"/assets/img/leads.png"}
               alt="Home Intro BG"
+              layout="fill"
             />
             <p className="text-base leading-relaxed mx-auto mt-4">
               Everything starts with a board, or a visual super table. Start

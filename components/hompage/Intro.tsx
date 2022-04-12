@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
-import HomeIntroBG from "assets/img/home-intro-bg.png";
+import Image from "next/image";
 import Button from "components/Button";
 import Icon from "utils/Icon";
 
@@ -47,10 +46,11 @@ const Intro = () => {
           </div>
         </div>
         <div className="max-w-4xl -mx-8 lg:mx-auto lg:-translate-y-36 lg:-mb-72">
-          <img
-            className="max-w-full mx-auto"
-            src={HomeIntroBG.src}
+          <Image
+            src="/assets/img/home-intro-bg.png"
             alt="Home Intro BG"
+            width={1607}
+            height={1500}
           />
         </div>
       </div>

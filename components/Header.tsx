@@ -3,7 +3,6 @@ import Image from "next/image";
 
 import Logo from "components/Logo";
 import Button from "components/Button";
-import LogoShadow from "assets/img/logo-shadow.png";
 import Link from "next/link";
 import Icon from "utils/Icon";
 
@@ -28,7 +27,12 @@ const Header = () => {
   return (
     <>
       <div className="opacity-60 absolute w-64 -left-16 -top-12 xl:w-[340px] xl:-left-10 xl:-top-8">
-        <img src={LogoShadow.src} alt="Logo preview" />
+        <Image
+          src={"/assets/img/logo-shadow.png"}
+          alt="ConduitCRM LLC"
+          height={1200}
+          width={1200}
+        />
       </div>
       <header
         id="header"

@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "utils/Icon";
-import CrmImg from "assets/img/crm.png";
+import Image from "next/image";
 
 const Crm = () => {
   return (
@@ -21,10 +21,11 @@ const Crm = () => {
             </h1>
           </div>
           <div className="max-w-4xl mx-auto mt-6 lg:mt-8">
-            <img
+            <Image
               className="max-w-full mx-auto"
-              src={CrmImg.src}
+              src={"/assets/img/crm.png"}
               alt="Home Intro BG"
+              layout="fill"
             />
           </div>
           <div className="max-w-6xl flex flex-wrap items-center__ justify-between gap-8 mx-auto mt-8 lg:mt-16 lg:gap-16 ">
