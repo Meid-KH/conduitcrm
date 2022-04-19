@@ -65,7 +65,7 @@ function Integration() {
           />
         </div>
 
-        <div className="py-40 flex flex-wrap items-center justify-between gap-2 flex-col-reverse lg:flex-row lg:gap-8 max-w-6xl mx-auto">
+        <div className="pt-40 pb-20 flex flex-wrap items-center justify-between gap-2 flex-col-reverse lg:flex-row lg:gap-8 max-w-6xl mx-auto">
           <Image
             className="max-w-full w-96"
             src={"/assets/img/drip.svg"}
@@ -78,10 +78,157 @@ function Integration() {
               Drip Campaigns
             </h3>
             <p className="text-faded leading-relaxed">
-              You can automate most of your day to day processes, such as
-              assigning milestones to leads, lead and user notifications, to
-              automatic stage updates.
+              Easily create multiple scheduled drip campaigns for all of your
+              leads. Combine SMS and emails drips within each campaign; set
+              delays or immediately activate each step.
             </p>
+          </div>
+        </div>
+
+        <div className="py-10 flex flex-wrap items-center gap-2 lg:flex-row lg:gap-8 max-w-6xl mx-auto w-full">
+          <h3 className="text-4xl font-semibold text-slate-200 mb-6 lg:mb-14 w-full text-center">
+            and so much more...
+          </h3>
+          <div className="">
+            <div className="flex flex-wrap flex-col lg:flex-row gap-20 justify-between">
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Lead Timelines</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Automation</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Notes</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Client Experience</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Integrations</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Document Storage</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Network Referrals</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">
+                    Email &amp; SMS Communication
+                  </span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">
+                    Multiple Organizations
+                  </span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Properties</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Playbook Marketplace</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">
+                    Customer Experience Support
+                  </span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily create multiple scheduled drip campaigns for all of
+                  your leads. Combine SMS and emails drips within each campaign;
+                  set delays or immediately activate each step.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

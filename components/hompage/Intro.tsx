@@ -11,15 +11,15 @@ const Intro = () => {
       <div className="stars2" />
       <div className="stars3" />
       <div className="container px-6 mx-auto overflow-hidden">
-        <div className=" text-faded relative z-10 max-w-[1086px] mx-auto text-center pt-16">
+        <div className=" text-faded relative z-10 max-w-[1286px] mx-auto text-center pt-16">
           <h1 className="text-3xl leading-snug font-bold uppercase lg:text-5xl lg:leading-relaxed mb-14">
             <span>Manage all your leads</span>
             <span className="block text-4xl lg:text-7xl text-primary-500">
               Like a pro
             </span>
           </h1>
-          <p className=" mx-auto leading-relaxed lg:text-lg lg:max-w-lg">
-            <span>Streamline and simplify</span>
+          <p className=" mx-auto leading-relaxed lg:text-xl lg:max-w-2xl font-light">
+            <span>Streamline and simplify your business with</span>
             <span className="underline underline-offset-4 mx-1 decoration-wavy decoration-amber-300">
               lead-processing pipelines
             </span>

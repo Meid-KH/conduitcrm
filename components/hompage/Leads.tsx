@@ -7,10 +7,10 @@ const Leads = () => {
   return (
     <section
       style={{ boxShadow: "0 -10px 20px 1px #18c4ff33" }}
-      className="bg-white py-10 lg:py-32 -skew-y-[2deg] -translate-y-24 lg:-mb-24"
+      className="bg-white py-20 lg:pt-48 -skew-y-[2deg] -translate-y-24 lg:-mb-24"
     >
       <div className="container px-6 mx-auto skew-y-[2deg]">
-        <div className="text-center max-w-5xl mx-auto mb-8 lg:mb-16">
+        <div className="text-center max-w-5xl mx-auto mb-8 lg:mb-24">
           <h2 className="text-primary-600 font-bold text-3xl lg:text-5xl lg:leading-tight">
             Day-to-day <span className="text-primary-500">Lead Processing</span>{" "}
             can <br /> become unmanageable
@@ -20,15 +20,15 @@ const Leads = () => {
             cost you and your leads, time, money, and your reputation.
           </p>
         </div>
-        <div className="w-full flex justify-center mb-24">
+        <div className="w-full flex justify-center mb-64 mt-32">
           <Image
-            src="/assets/img/lead-processing.png"
+            src="/assets/img/tangled.jpg"
             alt="Lead Processing"
-            width={600}
-            height={500}
+            width={500}
+            height={231}
           />
         </div>
-        <div className="text-center max-w-3xl mx-auto mb-7 lg:mb-14">
+        <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-44">
           <h2 className="text-primary-600 font-bold text-3xl lg:text-5xl lg:leading-tight">
             <span className="mr-2">The first Real Estate</span>
             <span className="text-primary-500">Lead Processing</span> platform
@@ -38,7 +38,15 @@ const Leads = () => {
             ahead by automating all lead processes without losing <br /> track
             from start to finish.
           </p>
-          <div className="mt-12">
+          <div className="w-full flex justify-center my-32">
+            <Image
+              src="/assets/img/untangled.png"
+              alt="Lead Processing"
+              width={550}
+              height={32}
+            />
+          </div>
+          <div className="mt-24">
             <Button primary>
               <div className="flex items-center gap-2">
                 Get started
@@ -48,14 +56,6 @@ const Leads = () => {
               </div>
             </Button>
           </div>
-        </div>
-        <div className="flex justify-center w-full">
-          <Image
-            src="/assets/img/real-estate-crm.png"
-            alt="Real estate Crm"
-            width={900}
-            height={500}
-          />
         </div>
       </div>
     </section>

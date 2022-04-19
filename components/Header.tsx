@@ -62,7 +62,7 @@ const Header = () => {
           <nav className="hidden flex-shrink-0 lg:flex items-center gap-11">
             <Link href="https://app.conduitcrm.com">
               <a
-                className={`hover:text-black ${
+                className={`hover:text-blue-600 ${
                   sticky ? "text-cyan-700 font-bold" : ""
                 }`}
               >
