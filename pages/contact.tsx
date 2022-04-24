@@ -1,13 +1,5 @@
 import Button from "components/Button";
-import Link from "next/link";
-import React, {
-  ChangeEvent,
-  FormEvent,
-  MouseEvent,
-  useCallback,
-  useRef,
-  useState,
-} from "react";
+import React, { ChangeEvent, FormEvent, useCallback, useState } from "react";
 import Icon from "utils/Icon";
 
 interface SubmissionFormProps {
