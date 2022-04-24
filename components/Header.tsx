@@ -69,7 +69,7 @@ const Header = () => {
                 Log in
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/pricing">
               <a className="block">
                 <Button primary>
                   <div className="flex items-center gap-2">

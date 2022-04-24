@@ -15,7 +15,7 @@ const Cta = () => {
             </span>
           </h4>
           <div className="mt-5 lg:mt-10">
-            <Link href="/">
+            <Link href="/pricing">
               <a className="block">
                 <Button primary>
                   <div className="flex items-center gap-2">

@@ -21,7 +21,7 @@ const Intro = () => {
             contacts.
           </p>
           <div className="flex flex-wrap justify-center gap-5 mt-10">
-            <Link href="/">
+            <Link href="/pricing">
               <a className="block">
                 <Button primary>
                   <div className="flex items-center gap-2">

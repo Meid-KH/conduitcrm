@@ -2,6 +2,7 @@ import React from "react";
 import Button from "components/Button";
 import Icon from "utils/Icon";
 import Image from "next/image";
+import Link from "next/link";
 
 const Leads = () => {
   return (
@@ -47,14 +48,18 @@ const Leads = () => {
             />
           </div>
           <div className="mt-24">
-            <Button primary>
-              <div className="flex items-center gap-2">
-                Get started
-                <span className="w-6 rotate-90 -mr-6">
-                  <Icon name="arrow" />
-                </span>
-              </div>
-            </Button>
+            <Link href="/pricing">
+              <a className="block">
+                <Button primary>
+                  <div className="flex items-center gap-2">
+                    Get started
+                    <span className="w-6 rotate-90 -mr-6">
+                      <Icon name="arrow" />
+                    </span>
+                  </div>
+                </Button>
+              </a>
+            </Link>
           </div>
         </div>
       </div>
