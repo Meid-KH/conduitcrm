@@ -93,12 +93,24 @@ function Integration() {
             <div className="flex flex-wrap flex-col lg:flex-row gap-20 justify-between">
               <div className="flex flex-col gap-5 lg:max-w-md">
                 <h4 className="font-medium text-xl">
-                  <span className="text-primary-500">Lead Timelines</span>
+                  <span className="text-primary-500">Timelines</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Oversee every lead interaction with users, including lead
+                  history, communication exchange, pipleine changes, notes, and
+                  email/call engagements.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-5 lg:max-w-md">
+                <h4 className="font-medium text-xl">
+                  <span className="text-primary-500">Click to call</span>
+                </h4>
+                <p className="text-faded leading-relaxed">
+                  Easily, click to immediately call a lead directly from each
+                  user&apos;s phone number. Conduit connects you and your lead
+                  immediately and without complex setups, logging each call
+                  interaction and SMS leads when calling fails.
                 </p>
               </div>
 
@@ -107,9 +119,9 @@ function Integration() {
                   <span className="text-primary-500">Automation</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  With Conduit, you can create pipeline automations, for every
+                  lead movement within stages. Automatically assign tags, teams,
+                  SMS, milestones, and notes.
                 </p>
               </div>
 
@@ -118,9 +130,9 @@ function Integration() {
                   <span className="text-primary-500">Notes</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Attach notes to any lead&apos;s timeline. Use notes as a
+                  simple mechanism to keep track of important deailts within the
+                  lifespan of a lead interaction.
                 </p>
               </div>
 
@@ -129,9 +141,10 @@ function Integration() {
                   <span className="text-primary-500">Client Experience</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Conduit&apos;s Client Experience will ensure that your
+                  contacts always have the best experience throughout the
+                  transaction. Automatically send emails or sms once they have
+                  reach any pipeline stage.
                 </p>
               </div>
 
@@ -140,9 +153,9 @@ function Integration() {
                   <span className="text-primary-500">Integrations</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Connect 1000&apos;s of applications to Conduit with our Zapier
+                  integration app. This will allow you to automatically import
+                  leads into Conduit.
                 </p>
               </div>
 
@@ -151,9 +164,8 @@ function Integration() {
                   <span className="text-primary-500">Document Storage</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Securely upload documents to each lead for easy access. Upload
+                  up to 500 mb of documents to all your leads.
                 </p>
               </div>
 
@@ -162,9 +174,9 @@ function Integration() {
                   <span className="text-primary-500">Network Referrals</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  You can now have a list of all your important business
+                  referrals inside Conduit. Refer them to other users, leads, or
+                  share your leads to your network with just one click.
                 </p>
               </div>
 
@@ -175,9 +187,9 @@ function Integration() {
                   </span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Easily send SMS or emails to all your leads. Create templates
+                  with dynamic template variables that will autofill with user
+                  and lead information isntantaneously and secure.
                 </p>
               </div>
 
@@ -188,9 +200,10 @@ function Integration() {
                   </span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  With the enterprise edition of Conduit, experience the ability
+                  to create multiple organizations within one account,
+                  simplifying the experience and avoiding long and complicated
+                  setups.
                 </p>
               </div>
 
@@ -199,9 +212,9 @@ function Integration() {
                   <span className="text-primary-500">Properties</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Maintain a list of all your properties within Conduit. Assign
+                  properties to leads, and create deals that links them with
+                  leads.
                 </p>
               </div>
 
@@ -210,22 +223,10 @@ function Integration() {
                   <span className="text-primary-500">Playbook Marketplace</span>
                 </h4>
                 <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
-                </p>
-              </div>
-
-              <div className="flex flex-col gap-5 lg:max-w-md">
-                <h4 className="font-medium text-xl">
-                  <span className="text-primary-500">
-                    Customer Experience Support
-                  </span>
-                </h4>
-                <p className="text-faded leading-relaxed">
-                  Easily create multiple scheduled drip campaigns for all of
-                  your leads. Combine SMS and emails drips within each campaign;
-                  set delays or immediately activate each step.
+                  Don&apos;t know where to start? Use one of our predefined
+                  playbook templates from top real estate professionals, that
+                  will set you apart from the rest, by automatically creating
+                  templates, pipelines, tags, and campaigns.
                 </p>
               </div>
             </div>

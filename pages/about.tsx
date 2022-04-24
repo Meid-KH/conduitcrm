@@ -1,15 +1,23 @@
 import Cta from "components/Cta";
 import Intro from "components/overview/Intro";
 import React from "react";
+import Image from "next/image";
 
 const Founders = [
   {
-    name: "Antonio Bologna",
-    role: "Co-founder & head of engineering",
+    src: "/assets/img/travis.jpeg",
+    name: "Travis Helmig",
+    role: "Co-founder & Head of Operations",
+    width: "350",
+    height: "370",
   },
   {
-    name: "Travis Helmig",
-    role: "Co-founder & Head of operations",
+    src: "/assets/img/ab.jpeg",
+    name: "Antonio Bologna",
+    role: "Co-founder & Technology Advisor",
+    width: "300",
+    height: "380",
+    bio: "",
   },
 ];
 const OurCulture = [
@@ -137,7 +145,6 @@ const TheFounders = () => (
         {/* Fouters Row */}
         {Founders.map((founder, index) => {
           const isEven: Boolean = index % 2 ? true : false;
-          // console.log(isEven);
 
           return (
             <div
@@ -146,15 +153,12 @@ const TheFounders = () => (
                   ${isEven && "md:flex-row-reverse"}
                   items-center justify-between__ gap-8 lg:gap-16`}
             >
-              <div className="w-full">
-                <div className="w-40 h-40 md:w-96 md:h-96 flex-shrink-0 rounded-full overflow-hidden md:mx-auto">
-                  <img
-                    className="w-full h-full"
-                    src="https://i.pravatar.cc/450"
-                    alt="Avatar"
-                  />
-                </div>
-              </div>
+              <Image
+                src={founder.src}
+                alt={founder.name}
+                width={founder.width}
+                height={founder.height}
+              />
               <div className="w-full">
                 <h2 className="text-2xl tracking-wide uppercase text-primary-500 font-bold mb-1">
                   {founder?.name}

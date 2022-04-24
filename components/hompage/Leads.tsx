@@ -22,10 +22,10 @@ const Leads = () => {
         </div>
         <div className="w-full flex justify-center mb-64 mt-32">
           <Image
-            src="/assets/img/tangled.jpg"
+            src="/assets/img/tangled.png"
             alt="Lead Processing"
-            width={500}
-            height={231}
+            width={560}
+            height={331}
           />
         </div>
         <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-44">

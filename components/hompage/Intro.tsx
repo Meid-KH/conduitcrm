@@ -15,7 +15,7 @@ const Intro = () => {
           <h1 className="text-3xl leading-snug font-bold uppercase lg:text-5xl lg:leading-relaxed mb-14">
             <span>Manage all your leads</span>
             <span className="block text-4xl lg:text-7xl text-primary-500">
-              Like a pro
+              blazingly fast
             </span>
           </h1>
           <p className=" mx-auto leading-relaxed lg:text-xl lg:max-w-2xl font-light">
