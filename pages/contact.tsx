@@ -92,17 +92,8 @@ const Contact = () => {
             ) : (
               <>
                 <form
-                  name="contact"
                   data-netlify="true"
-                  data-netlify-honeypot="bot-field"
-                  hidden
-                >
-                  <input type="text" name="name" />
-                  <input type="email" name="email" />
-                  <textarea name="message"></textarea>
-                </form>
-                <form
-                  data-netlify="true"
+                  netlify-honeypot="bot-field"
                   onSubmit={handleSubmit}
                   className="p-6 lg:p-8 bg-white text-gray-500 rounded-lg shadow-lg shadow-primary-500"
                 >
