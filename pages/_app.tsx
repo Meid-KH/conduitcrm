@@ -3,8 +3,14 @@ import "../styles/app.scss";
 import type { AppProps } from "next/app";
 import Layout from "components/Layout";
 import Head from "next/head";
+import { hotjar } from "react-hotjar";
+import { useEffect } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
+  useEffect(() => {
+    hotjar.initialize(2938970, 6);
+  }, []);
+
   return (
     <>
       <Head>
