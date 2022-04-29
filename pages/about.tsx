@@ -90,38 +90,50 @@ const OurStory = () => (
                 first-letter:text-4xl first-letter:font-semibold first-letter:mr-0.5"
           >
             <p>
-              Accusantium, Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Dolorum sunt quibusdam nihil nisi ea tempore accusamus
-              corrupti quaerat dolores dolorem quos, sequi eos, debitis maiores!
-              Ipsa, non dolorem asperiores voluptate quas aliquam laboriosam
-              expedita placeat enim, fugit cupiditate consectetur eveniet quasi
-              voluptates aut. Maxime pariatur est placeat soluta consequuntur
-              eligendi aspernatur numquam aut assumenda cum magnam id adipisci
-              facere omnis repellat, ex officia! Architecto ut corporis est
-              nulla natus, fuga dicta laboriosam, mollitia perferendis sit
-              necessitatibus sed voluptas enim!
+              Conduit CRM came from necessity. It did not begin as a CRM, it
+              began as a problem. At the time, Travis and his wife were triple
+              icon agents at the fastest-growing real estate brokerage in the
+              country. They were at the point in their career where they wanted
+              to start diversifying their business. Travis retired as a real
+              estate agent and jumped into mortgage lending. His wife became a
+              broker and they both became investors in real estate. You might be
+              saying to yourself, where is the problem?
             </p>
             <p>
-              dignissimos, quae architecto nesciunt in magni incidunt harum
-              placeat tenetur sed delectus rerum laborum, similique reiciendis
-              fugiat ullam blanditiis. Animi debitis quisquam suscipit, eveniet
-              modi vero in sint dicta illo necessitatibus eos qui. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Veritatis
-              exercitationem ipsam dicta laboriosam, illum saepe itaque facilis
-              laudantium perspiciatis, aliquid quaerat quia! Laborum.
+              The greatest problem was growth. Travis grew out of real estate
+              CRMs because they solely focus on real estate. Mortgage platforms
+              would not work because they focused on mortgages. They quickly
+              found that finding a platform that works with real estate,
+              lending, and investing along with allowing their teams to
+              communicate was impossible. They knew they needed to create
+              something that fit their needs. However, something like Salesforce
+              would require huge amounts of time, effort, and a lot of money
+              along with HEAVY monthly costs forever. We realized this was not a
+              problem but an opportunity.
             </p>
             <p>
-              Voluptates impedit sit, sunt obcaecati ducimus minima pariatur
-              nesciunt modi doloribus ex labore a quia aspernatur similique
-              explicabo ipsam. Ab rerum doloremque nam atque quis culpa! Odit
-              dolorem at doloremque fugiat alias dolor perferendis fugit
-              consequuntur aliquid reprehenderit iure amet cumque asperiores,
-              atque quam porro, iusto enim rem neque! Quam sequi blanditiis
-              aspernatur officia, aperiam sapiente nihil! Quam minima fugiat
-              ducimus saepe vel hic iusto obcaecati rem, enim, provident illo
-              veritatis libero. Necessitatibus aspernatur repellendus aut
-              laudantium harum nemo temporibus voluptatibus dignissimos, amet
-              in, saepe sequi!
+              Antonio Bologna, is a seasoned entrepreneur, and engineer, with
+              years of experience in the platform space. After discussing the
+              vision and researching competitors, found out that most platforms
+              and CRMs were missing key elements. One is a process, the ability
+              to set up a business that never changes. This creates a consistent
+              client experience, continuity inside teams, and one that allows
+              you to focus on the most important part of your business, PROFITS.
+            </p>
+            <p>
+              One of the most important aspects that the founders wanted to
+              create, was a community where users were more than just users.
+              That is why Conduit is the only platform that allows users to earn
+              money by becoming affiliates. Being a part of eXp Realty, the
+              fastest growing real estate brokerage, Travis learned that feeling
+              like you are part of something drives you to become better. That
+              is why the founders decided that Conduit should not be something
+              you just use in your business, but it should be a part of your
+              business. Becoming a Conduit Affiliate you can work towards
+              getting residual income or just a free platform with all the bells
+              and whistles. Conduit is not just another Real Estate CRM, it is a
+              real estate platform, we are all in this together. Let Conduit be
+              your business in a box.
             </p>
           </div>
         </div>
